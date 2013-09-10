@@ -1,6 +1,6 @@
 window.MousetrapWrapper = {}
 
-MousetrapWrapper.Base = class Base
+class MousetrapWrapper.Base
   constructor: (@lib=Mousetrap) ->
 
   events: -> throw new Error 'Events method not implemented'
@@ -33,5 +33,3 @@ MousetrapWrapper.Base = class Base
 
   unbindCallbackFor: (event) ->
     @lib.unbind event[0]
-
-class asd extends Base
