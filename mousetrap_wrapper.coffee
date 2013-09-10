@@ -1,3 +1,10 @@
+# MousetrapWrapper.js v0.1.0
+#
+# Copyright 2013, Lukas Alexandre
+# Licensed under MIT
+#
+# @module mousetrap_wrapper
+
 window.MousetrapWrapper = {}
 
 class MousetrapWrapper.Base
